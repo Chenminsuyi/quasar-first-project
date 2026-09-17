@@ -10,5 +10,8 @@
     "dist/": true,
     ".quasar/": true,
     "/quasar.config.js.temporary.*": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   }
 }

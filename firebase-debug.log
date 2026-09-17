@@ -1,0 +1,127 @@
+[debug] [2026-09-17T03:19:22.339Z] ----------------------------------------------------------------------
+[debug] [2026-09-17T03:19:22.343Z] Command:       /home/chenminsuyi/.nvm/versions/node/v24.20.0/bin/node /home/chenminsuyi/Projects/quasar-project/node_modules/.pnpm/firebase-tools@15.30.1_@types+node@22.20.3/node_modules/firebase-tools/lib/bin/firebase.js emulators:start
+[debug] [2026-09-17T03:19:22.343Z] CLI Version:   15.30.1
+[debug] [2026-09-17T03:19:22.343Z] Platform:      linux
+[debug] [2026-09-17T03:19:22.343Z] Node Version:  v24.20.0
+[debug] [2026-09-17T03:19:22.343Z] Detected Agent: unknown
+[debug] [2026-09-17T03:19:22.343Z] Time:          Wed Sep 16 2026 21:19:22 GMT-0600 (Central Standard Time)
+[debug] [2026-09-17T03:19:22.344Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-09-17T03:19:23.635Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-09-17T03:19:23.635Z] > authorizing via signed-in user (nasyalalupu@gmail.com)
+[debug] [2026-09-17T03:19:23.742Z] openjdk version "21.0.12" 2026-07-21
+OpenJDK Runtime Environment (build 21.0.12+8-1-26.04-Ubuntu)
+
+[debug] [2026-09-17T03:19:23.743Z] OpenJDK 64-Bit Server VM (build 21.0.12+8-1-26.04-Ubuntu, mixed mode, sharing)
+
+[debug] [2026-09-17T03:19:23.759Z] Parsed Java major version: 21
+[info] i  emulators: Starting emulators: auth, functions, firestore, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, extensions"}}
+[debug] [2026-09-17T03:19:23.763Z] Checked if tokens are valid: true, expires at: 1789617788173
+[debug] [2026-09-17T03:19:23.763Z] Checked if tokens are valid: true, expires at: 1789617788173
+[debug] [2026-09-17T03:19:23.764Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/quasar-firebase-mayumi-b6e94 [none]
+[debug] [2026-09-17T03:19:24.016Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/quasar-firebase-mayumi-b6e94 200
+[debug] [2026-09-17T03:19:24.017Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/quasar-firebase-mayumi-b6e94 {"projectNumber":"1023375835367","projectId":"quasar-firebase-mayumi-b6e94","lifecycleState":"ACTIVE","name":"quasar-firebase-mayumi","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2026-09-17T02:28:36.392Z"}
+[debug] [2026-09-17T03:19:24.024Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2026-09-17T03:19:24.030Z] Write emulator hub locator at /tmp/hub-quasar-firebase-mayumi-b6e94.json
+[debug] [2026-09-17T03:19:24.037Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2026-09-17T03:19:24.039Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2026-09-17T03:19:24.070Z] defaultcredentials: writing to file /home/chenminsuyi/.config/firebase/nasyalalupu_gmail_com_application_default_credentials.json
+[debug] [2026-09-17T03:19:24.071Z] Setting GAC to /home/chenminsuyi/.config/firebase/nasyalalupu_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/chenminsuyi/.config/firebase/nasyalalupu_gmail_com_application_default_credentials.json"}}
+[debug] [2026-09-17T03:19:24.072Z] Checked if tokens are valid: true, expires at: 1789617788173
+[debug] [2026-09-17T03:19:24.072Z] Checked if tokens are valid: true, expires at: 1789617788173
+[debug] [2026-09-17T03:19:24.072Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/quasar-firebase-mayumi-b6e94/adminSdkConfig [none]
+[debug] [2026-09-17T03:19:24.353Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/quasar-firebase-mayumi-b6e94/adminSdkConfig 200
+[debug] [2026-09-17T03:19:24.353Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/quasar-firebase-mayumi-b6e94/adminSdkConfig {"projectId":"quasar-firebase-mayumi-b6e94","storageBucket":"quasar-firebase-mayumi-b6e94.firebasestorage.app"}
+[debug] [2026-09-17T03:19:24.370Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2026-09-17T03:19:24.370Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2026-09-17T03:19:24.370Z] Starting Firestore Emulator with command {"binary":"java","args":["-Djava.net.preferIPv4Stack=true","-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","/home/chenminsuyi/.cache/firebase/emulators/cloud-firestore-emulator-v1.22.0.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--database-edition","standard","--project_id","quasar-firebase-mayumi-b6e94","--rules","/home/chenminsuyi/Projects/quasar-project/firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","database-edition","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8080} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Djava.net.preferIPv4Stack=true\",\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"/home/chenminsuyi/.cache/firebase/emulators/cloud-firestore-emulator-v1.22.0.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--database-edition\",\"standard\",\"--project_id\",\"quasar-firebase-mayumi-b6e94\",\"--rules\",\"/home/chenminsuyi/Projects/quasar-project/firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"database-edition\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8080}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2026-09-17T03:19:26.029Z] Sep 16, 2026 9:19:25 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://127.0.0.1:9150
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 16, 2026 9:19:25 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\nINFO: Started WebSocket server on ws://127.0.0.1:9150\n"}}
+[debug] [2026-09-17T03:19:26.082Z] 
+API endpoint: http://127.0.0.1:8080
+ {"metadata":{"emulator":{"name":"firestore"},"message":"\nAPI endpoint: http://127.0.0.1:8080\n"}}
+[debug] [2026-09-17T03:19:26.083Z] Database Edition: STANDARD
+Database Mode: CLOUD_FIRESTORE
+
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080
+
+If you are running a Firestore in Datastore Mode project, run:
+
+   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080
+
+Note: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Database Edition: STANDARD\nDatabase Mode: CLOUD_FIRESTORE\n\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080\n\nIf you are running a Firestore in Datastore Mode project, run:\n\n   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080\n\nNote: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.\nDev App Server is now running.\n\n"}}
+[info] ✔  firestore: Firestore Emulator was started in standard edition. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator was started in standard edition."}}
+[info] ✔  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2026-09-17T03:19:34.260Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "/home/chenminsuyi/Projects/quasar-project/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/chenminsuyi/Projects/quasar-project/functions\" for Cloud Functions..."}}
+[debug] [2026-09-17T03:19:34.267Z] Validating nodejs source
+[debug] [2026-09-17T03:19:35.173Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "24"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^13.6.0",
+    "firebase-functions": "^7.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.4.1",
+    "typescript": "^6.0.0"
+  },
+  "private": true
+}
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: There was an error reading functions/package.json:
+
+ functions/lib/index.js does not exist, can't deploy Cloud Functions {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: There was an error reading functions/package.json:\n\n functions/lib/index.js does not exist, can't deploy Cloud Functions"}}
+[debug] [2026-09-17T03:19:35.188Z] Could not find VSCode notification endpoint: TypeError: fetch failed. If you are not running the Firebase SQL Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI              │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth       │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore  │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions     │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500, 9150
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2026-09-17T03:19:35.652Z] Sep 16, 2026 9:19:35 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 16, 2026 9:19:35 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
