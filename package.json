@@ -12,7 +12,9 @@
     "dev": "quasar dev",
     "build": "quasar build",
     "typecheck": "vue-tsc --noEmit",
-    "postinstall": "quasar prepare --silent"
+    "postinstall": "quasar prepare --silent",
+    "build:functions": "pnpm --filter functions build",
+    "check:all": "pnpm run typecheck && pnpm run build:functions"
   },
   "dependencies": {
     "@quasar/extras": "^2.1.0",
